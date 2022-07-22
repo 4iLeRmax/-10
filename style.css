@@ -666,6 +666,9 @@ display: flex;
 
 
 @media only screen and (max-width: 450px){
+  .container{
+    padding: 0 5%;
+  }
   header{
     flex-direction: column;
     padding: 0 5%;
@@ -742,6 +745,7 @@ display: flex;
   .header__bar{
     /* display: none; */
     flex-direction: column;
+    width: 90%;
   }
   .card__bar{
     padding: 20px 0;
@@ -753,7 +757,7 @@ display: flex;
     padding: 0 5%;
   } */
   .statistics{
-    padding-top: 450px;
+    padding-top: 500px;
   }
   .statistics__main{
     flex-direction: column;
@@ -795,8 +799,9 @@ display: flex;
   .app__info{
     padding: 100px 0;
   }
-
-
+  .meets{
+    background-position-x: -200px;
+  }
   .slider{
     padding-bottom: 0px;
   }
